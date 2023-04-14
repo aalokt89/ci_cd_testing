@@ -54,6 +54,11 @@ variable "private_subnets" {
   }
 }
 
+variable "test_var" {
+  type    = string
+  default = ""
+}
+
 # public subnet vars
 #----------------------------------------
 variable "public_subnets" {
