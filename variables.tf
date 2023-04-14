@@ -14,7 +14,7 @@ variable "aws_region" {
 variable "app_name" {
   type        = string
   description = "app name prefix for naming"
-  default     = "test"
+  default     = "test2"
 }
 
 # vpc vars
